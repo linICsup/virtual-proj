@@ -154,6 +154,7 @@ module ahb_blockram_32
   assign HREADYOUT = 1'b1;
   assign HRDATA    = {BRAM3[reg_haddr],BRAM2[reg_haddr],
                       BRAM1[reg_haddr],BRAM0[reg_haddr]};
+
   // -----------------------------------------------------------------------------
   // Initial image
   // -----------------------------------------------------------------------------
